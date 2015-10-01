@@ -1,0 +1,7 @@
+---
+applications:
+- name: sinatra-redis
+  random-route: true
+  memory: 64m
+  services:
+    - redis-test
